@@ -1,0 +1,235 @@
+.nav {
+    background-image: url('slide1-01.jpg');
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+
+
+}
+.admin {
+    background-color: rgb(228, 223, 233);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.admin:hover{
+    background-color: red;
+    transition: all 0.5;
+}
+button{
+    background-color: rgb(171, 138, 202);
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+     background-color: red;
+    transition: all 0.5s;
+}
+.hello {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400px;
+    line-height: 23.8px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.text {
+    text-align: center;
+    gap: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h2 {
+    font-size: 30px;
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.text span {
+    font-size: 12px;
+}
+
+.foto {
+    width: 300px;
+    height: 500px;
+
+    
+}
+
+.ourimg {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: transform .2s;
+
+}
+.ourimg:hover{
+    transform: scale(1.1);
+  
+    overflow: hidden;
+    transition: all 0.6;
+}
+
+.discover {
+    padding-bottom: 200px;
+    width: 100%;
+    height: 90vh;
+    background-image: url('bg-intro-01.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover p {
+    color: red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 290px;
+    font-size: 20px;
+   
+
+   
+}
+
+.discover h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700px;
+
+}
+.data{
+   padding-top: 60px;
+  
+}
+
+.dataimg {
+    width: 370px;
+    height: 220px;
+    border-radius: 10px;
+}
+.meal{
+    width: 29%;
+    height: 400px;
+    background-image: url('our-menu-01.jpg');
+   background-size: cover;
+   border-radius: 10px;
+   position: relative;
+
+}
+.btnone{
+   
+   position: absolute;
+   bottom: 160px;
+   left: 150px;
+   padding: 10px 25px;
+   border-radius: 5px;
+   border: none;
+   font-size: 22px;
+   line-height: 30px;
+   text-transform: uppercase;
+   
+}
+.wine{
+    width: 32%;
+    height: 400px;
+    background-image: url('our-menu-05.jpg');
+   background-size: cover;
+   border-radius: 10px;
+   position: relative;
+
+}
+.lunch{
+    width: 29%;
+    height: 400px;
+    background-image: url('our-menu-01.jpg');
+   background-size: cover;
+   border-radius: 10px;
+   position: relative;
+
+}
+.menu{
+    padding-top: 100px;
+}
+table th, td {
+    
+    border: 1px solid black;
+}
+.hour{
+    width: 29%;
+    height: 400px;
+    background-image: url('our-menu-13.jpg');
+   background-size: cover;
+   border-radius: 10px;
+   position: relative;
+
+}
+.foot{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: darkolivegreen;
+    display: flex;
+}
+.foot .inp, .sign {
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+}
+.foot .inp{
+    border-radius: 10px;
+    border: 1px solid red;
+}
+.foot .sign {
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.foot .sign:hover{
+    background-color: red;
+    transition: all 0.5s;
+}
+.foot h1{
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: 400px;
+}
